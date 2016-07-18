@@ -1,0 +1,25 @@
+{
+  "name": "weather_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon api",
+    "test": "mocha"
+  },
+  "author": "Sreeram",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.4",
+    "nodemon": "^1.9.2",
+    "supertest": "^1.2.0"
+  }
+}

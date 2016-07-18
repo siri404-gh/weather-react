@@ -1,0 +1,209 @@
+{
+    "coord": {
+        "lon": 78.47,
+        "lat": 17.38
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 302.15,
+        "pressure": 1012,
+        "humidity": 62,
+        "temp_min": 302.15,
+    "temp_max": 302.15
+    },
+    "wind": {
+        "speed": 6.2,
+        "deg": 270
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1468827000,
+    "sys": {
+        "type": 1,
+        "id": 7830,
+        "message": 0.006,
+        "country": "IN",
+        "sunrise": 1468801268,
+        "sunset": 1468848212
+    },
+    "id": 1269843,
+    "name": "Hyderabad",
+    "cod": 200
+}
+
+{
+    "coord": {
+        "lon": 77.6,
+        "lat": 12.98
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 299.15,
+        "pressure": 1015,
+        "humidity": 69,
+        "temp_min": 299.15,
+        "temp_max": 299.15
+    },
+    "wind": {
+        "speed": 4.6,
+        "deg": 280
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1468825200,
+    "sys": {
+        "type": 1,
+        "id": 7823,
+        "message": 0.004,
+        "country": "IN",
+        "sunrise": 1468801918,
+        "sunset": 1468847981
+    },
+    "id": 1277333,
+    "name": "Bangalore",
+    "cod": 200
+}
+
+{
+    "coord": {
+        "lon": 80.28,
+        "lat": 13.09
+    },
+    "weather": [
+        {
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03d"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 306.15,
+        "pressure": 1007,
+        "humidity": 59,
+        "temp_min": 306.15,
+        "temp_max": 306.15
+    },
+    "wind": {
+        "speed": 3.6,
+        "deg": 270
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1468825200,
+    "sys": {
+        "type": 1,
+        "id": 7834,
+        "message": 0.0048,
+        "country": "IN",
+        "sunrise": 1468801264,
+        "sunset": 1468847349
+    },
+    "id": 1264527,
+    "name": "Chennai",
+    "cod": 200
+}
+
+{
+    "coord": {
+        "lon": 88.37,
+        "lat": 22.57
+    },
+    "weather": [
+        {
+        "id": 721,
+        "main": "Haze",
+        "description": "haze",
+        "icon": "50d"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 306.15,
+        "pressure": 1004,
+        "humidity": 63,
+        "temp_min": 306.15,
+        "temp_max": 306.15
+    },
+    "wind": {
+        "speed": 3.6,
+        "deg": 200
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1468827000,
+    "sys": {
+        "type": 1,
+        "id": 7784,
+        "message": 0.0107,
+        "country": "IN",
+        "sunrise": 1468798337,
+        "sunset": 1468846387
+    },
+    "id": 1275004,
+    "name": "Kolkata",
+    "cod": 200
+}
+
+{
+    "coord": {
+        "lon": 77.23,
+        "lat": 28.61
+    },
+    "weather": [
+        {
+        "id": 701,
+        "main": "Mist",
+        "description": "mist",
+        "icon": "50d"
+        }
+    ],
+    "base": "cmc stations",
+    "main": {
+        "temp": 303.15,
+        "pressure": 1003,
+        "humidity": 79,
+        "temp_min": 303.15,
+        "temp_max": 303.15
+    },
+    "wind": {
+        "speed": 3.1,
+        "deg": 310
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1468823400,
+    "sys": {
+        "type": 1,
+        "id": 7809,
+        "message": 0.0024,
+        "country": "IN",
+        "sunrise": 1468800301,
+        "sunset": 1468849765
+    },
+    "id": 1261481,
+    "name": "New Delhi",
+    "cod": 200
+}

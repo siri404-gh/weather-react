@@ -1,0 +1,22 @@
+body {
+    font-size: 13px;
+}
+.cloudiness {
+    text-transform: capitalize;
+}
+
+.data_container {
+    max-width: 500px;
+}
+
+.row {
+    padding: 3px;
+}
+
+.my-table .row:nth-child(even) {
+    background: #f8f8f8;
+}
+
+a {
+    font-weight: bold;
+}
