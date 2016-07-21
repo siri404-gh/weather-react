@@ -1,5 +1,6 @@
 var React = require('react');
 var NavBar = require('../../components/NavBar/NavBar');
+var port = +process.env.PORT || 5000;
 
 var Weather = React.createClass({
     getInitialState: function() {
@@ -28,7 +29,7 @@ var Weather = React.createClass({
             sunrise= '',
             sunset= '',
             coords= '';
-        $.get('http://localhost:8080/weather/'+id)
+        $.get('http://localhost:'+port+'/weather/'+id)
         .done(function(data) {
             console.log(data);
             self.setState({
@@ -92,7 +93,7 @@ var Weather = React.createClass({
             });
             $.ajax({
                 type: 'PUT',
-                url: 'http://localhost:8080/weather/'+id,
+                url: 'http://localhost:'+port+'/weather/'+id,
                 data: data,
                 success: function(data) {
                     console.log(data);

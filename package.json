@@ -1,13 +1,33 @@
 {
-  "name": "weather_client",
+  "name": "weather_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/api",
+    "test": "mocha"
   },
   "author": "Sreeram",
   "license": "ISC",
+  "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "parserOptions": {
+            "ecmaVersion": 6,
+            "sourceType": "module",
+            "ecmaFeatures": {
+                "jsx": true
+            }
+       }
+    },
+    "engines": {
+    "node": "6.2.2"
+  },
   "dependencies": {
     "babel": "^6.1.18",
     "babel-core": "^6.2.1",
@@ -24,7 +44,6 @@
     "gulp-react": "^3.1.0",
     "gulp-uglify": "^1.5.3",
     "jsdom": "^7.0.2",
-    "mocha": "^2.3.4",
     "mocha-jsdom": "^1.0.0",
     "react": "^0.14.3",
     "react-addons-test-utils": "^0.14.3",
@@ -32,6 +51,14 @@
     "react-router": "^0.13.3",
     "object-assign": "*",
     "reactify": "*",
-    "vinyl-source-stream": "*"
+    "vinyl-source-stream": "*",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.4",
+    "nodemon": "^1.9.2",
+    "supertest": "^1.2.0"
   }
 }

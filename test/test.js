@@ -1,7 +1,8 @@
 var should = require('chai').should();
 var supertest = require("supertest");
-var app = require('../api');
-var url = supertest("http://localhost:8080");
+var app = require('../server/api');
+var port = +process.env.PORT || 5000;
+var url = supertest("http://localhost:"+port);
 
 describe("Posting a city's weather", function(err) {
     it("Should POST Test City's weather details to /weather successfully.", function(done){

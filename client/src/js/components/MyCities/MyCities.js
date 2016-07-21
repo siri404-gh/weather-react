@@ -1,5 +1,6 @@
 var React = require('react');
 var City = require('../City/City');
+var port = +process.env.PORT || 5000;
 
 var MyCities = React.createClass({
     getInitialState: function() {
@@ -9,7 +10,7 @@ var MyCities = React.createClass({
     },
     componentWillMount: function() {
         var newCities = [];
-        $.get('http://localhost:8080/weather')
+        $.get('http://localhost:'+port+'/weather')
         .done(function(cities) {
             if(cities) {
                 cities.forEach(function(city) {

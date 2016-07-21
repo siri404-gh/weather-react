@@ -3,7 +3,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var Weather = require('./model/model');
-var port = +process.argv[2] || 8080;
+var port = +process.env.PORT || 5000;
 var db = 'mongodb://localhost/weather';
 var app = new express();
 var path = require('path');
@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-app.use(express.static('../client/dist/'));
+app.use(express.static('./client/dist/'));
 
 app.get('/', function(req, res) {
     res.send('Welcome');
